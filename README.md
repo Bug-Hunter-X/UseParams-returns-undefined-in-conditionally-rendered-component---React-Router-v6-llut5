@@ -1,0 +1,1 @@
+This repository demonstrates a common bug in React Router v6 involving the `useParams` hook and conditionally rendered components. The bug occurs when `useParams` is used in a component that isn't rendered immediately, leading to `undefined` values. The solution showcases a pattern for ensuring `useParams` has access to the route parameters before being used.
